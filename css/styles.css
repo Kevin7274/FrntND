@@ -1,48 +1,13 @@
-h1 {
-    text-align: center;
-}
-p {
-    color: red;
-    font-family: "Mont";
-    font-size: 13px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: justify;
-    line-height: 2;
-    letter-spacing: 1px;
-}
-span {
-    text-decoration: line-through;
-    color: brown;
-}
-
-div {
-    background: rgba(255, 5, 5, 0.74);
-    width: 500px;
-    height: 200px;
+body {
+    background: black;
 }
 
 input {
-    width: 50%;
-}
-
-.formulario {
-    background: yellowgreen;
-    padding: 30px;
-}
-
-.formulario_input {
-    padding: 9px 12px;
-    width: 90%;
-    background: black;
-    color: red;
-    margin: 10px;
-}
-
-.formulario_submit {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    background: red;
-    color: white;
-    width: 50%;
+    margin: 6px 9px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+    background: transparent;
+    color: greenyellow;
 }
