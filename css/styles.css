@@ -1,7 +1,3 @@
-body {
-    background: black;
-}
-
 input {
     margin: 6px 9px;
     padding: 5px;
@@ -10,4 +6,68 @@ input {
     border-left: 1px solid greenyellow;
     background: transparent;
     color: greenyellow;
+}
+
+body{
+    background: black;
+    margin: none;
+    color: #fff;
+}
+.box {
+    background: #8086;
+    margin: 10px;
+    padding: 20px 80px;
+    border-top: 2px solid #afa;
+    text-align: center;
+    font-family: "Mont";
+    font-weight: bold;
+    color: #afa;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+}
+span {
+    color: #adadad;
+    font-size: 16px;
+    font-weight: 400;
+}
+p {
+    color: #555;
+    background-color: #7f7;
+    margin: 20px;
+    padding: 10px;
+}
+
+.box2{
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDeypfFZ6cO6W8yClu2VE9jFVve0lkCh3VF7ArnnDg3m4jRvgeQtmjWJE&s=10") top / cover fixed #f3ef
+}
+.opaco {
+    width: 100%;
+    height: 100%;
+    background-color: #000a;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+}
+
+.box3 {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(transparent, #f009);
+    margin: 0;
+
+}
+.h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
